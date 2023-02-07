@@ -3,7 +3,7 @@ import { createSlice, configureStore } from "@reduxjs/toolkit";
 export const examSlice = createSlice({
     name: "examSlice",
     initialState: {
-        items:["compitem1", "compitem2"]
+        items:["comp item1", "comp item2"]
     },
     reducers: {
         changeitems: (state, action) => {
